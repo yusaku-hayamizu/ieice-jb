@@ -10,7 +10,7 @@ RUN apt install -y emacs
 RUN apt install -y python3
 RUN apt -y clean
 RUN git clone https://github.com/cefore/cefore.git
-RUN git clone https://github.com/cefore/cefpyco.git
+# RUN git clone https://github.com/cefore/cefpyco.git
 
 # WORKDIR /cefore/cefpyco
 # RUN apt install -y cmake python3-pip

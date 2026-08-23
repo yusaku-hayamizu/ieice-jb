@@ -1,5 +1,5 @@
 FROM cefore/base
-LABEL maintainer="hayamizu <hayamizu@nict.go.jp>"
+LABEL maintainer="hayamizu <hayamizu@kansai-u.ac.jp>"
 WORKDIR /cefore/cefore
 RUN ./configure --enable-cache
 RUN make
