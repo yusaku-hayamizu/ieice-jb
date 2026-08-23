@@ -1,3 +1,3 @@
 
 # IEICE JB 2026 invited
-Hello.
+Sample script codes.
