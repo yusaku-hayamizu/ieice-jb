@@ -1,5 +1,5 @@
 FROM ubuntu:24.04
-LABEL maintainer="hayamizu <hayamizu@nict.go.jp>"
+LABEL maintainer="hayamizu <hayamizu@kansai-u.ac.jp>"
 RUN mkdir -p /cefore
 WORKDIR /cefore
 RUN apt update
@@ -10,13 +10,6 @@ RUN apt install -y emacs
 RUN apt install -y python3
 RUN apt -y clean
 RUN git clone https://github.com/cefore/cefore.git
-# RUN git clone https://github.com/cefore/cefpyco.git
-
-# WORKDIR /cefore/cefpyco
-# RUN apt install -y cmake python3-pip
-# RUN apt -y clean
-# RUN pip3 install --upgrade pip
-# RUN pip3 install setuptools click numpy
 
 WORKDIR /cefore/runner_test
 RUN apt -y clean

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "- Publisher ----------------------------------------"
+
 cefstatus -v
 cefstatus
 
